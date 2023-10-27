@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T18:41:26.805Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.931 YaBrowser/23.9.3.931 Yowser/2.5 Safari/537.36" etag="zfUOrXIV4Q4DOMlEg_IW" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-27T18:43:29.235Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.931 YaBrowser/23.9.3.931 Yowser/2.5 Safari/537.36" etag="WHI0jXU8OtSd3506p1S8" version="22.0.8" type="github">
   <diagram name="Страница — 1" id="CVkyIVfdtAMXl103ZaGv">
-    <mxGraphModel dx="1733" dy="2118" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2310" dy="2434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,7 +32,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cYsJTezxlfMT1NDNoRSI-8" value="TechSocialPark" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="385" y="50" width="240" height="400" as="geometry" />
+          <mxGeometry x="382" y="50" width="245" height="410" as="geometry" />
         </mxCell>
         <mxCell id="cYsJTezxlfMT1NDNoRSI-13" value="StoryService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cYsJTezxlfMT1NDNoRSI-8">
           <mxGeometry x="70" y="70" width="100" height="30" as="geometry" />
@@ -59,13 +59,27 @@
           <mxGeometry x="70" y="350" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cYsJTezxlfMT1NDNoRSI-9" value="DATABASE&lt;br&gt;POSTGRESQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="827" y="230" width="140" height="220" as="geometry" />
+          <mxGeometry x="730" y="240" width="140" height="220" as="geometry" />
         </mxCell>
         <mxCell id="cYsJTezxlfMT1NDNoRSI-20" value="PushNotifications" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="840" y="-115" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cYsJTezxlfMT1NDNoRSI-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="cYsJTezxlfMT1NDNoRSI-20" target="cYsJTezxlfMT1NDNoRSI-1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cYsJTezxlfMT1NDNoRSI-27" value="DATABASE&lt;br&gt;POSTGRESQL&lt;br&gt;REPLICA" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="960" y="350" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="cYsJTezxlfMT1NDNoRSI-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cYsJTezxlfMT1NDNoRSI-27" target="cYsJTezxlfMT1NDNoRSI-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cYsJTezxlfMT1NDNoRSI-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cYsJTezxlfMT1NDNoRSI-8" target="cYsJTezxlfMT1NDNoRSI-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="505" y="540" />
+              <mxPoint x="1015" y="540" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
