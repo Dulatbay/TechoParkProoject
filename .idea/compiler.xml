@@ -5,20 +5,33 @@
       <directory url="file://$PROJECT_DIR$/app/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="reels-ms" />
         <module name="actual-ms" />
         <module name="user-ms" />
-        <module name="saved-collections-ms" />
-        <module name="archive-ms" />
-        <module name="music-ms" />
-        <module name="chat-ms" />
-        <module name="blog-ms" />
-        <module name="story-ms" />
+        <module name="api-gateway" />
+        <module name="eureka-server" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="archive-ms" target="1.7" />
+      <module name="blog-ms" target="1.7" />
+      <module name="chat-ms" target="1.7" />
+      <module name="music-ms" target="1.7" />
+      <module name="reels-ms" target="1.7" />
+      <module name="saved-collections-ms" target="1.7" />
+      <module name="story-ms" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="actual-ms" options="-parameters" />
+      <module name="api-gateway" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="user-ms" options="-parameters" />
+    </option>
   </component>
 </project>
