@@ -10,16 +10,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="api-gateway" />
         <module name="actual-ms" />
         <module name="user-ms" />
-        <module name="api-gateway" />
-        <module name="eureka-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="app" target="1.5" />
       <module name="archive-ms" target="1.7" />
       <module name="blog-ms" target="1.7" />
       <module name="chat-ms" target="1.7" />
+      <module name="eureka-server.main" target="17" />
+      <module name="eureka-server.test" target="17" />
       <module name="music-ms" target="1.7" />
       <module name="reels-ms" target="1.7" />
       <module name="saved-collections-ms" target="1.7" />
