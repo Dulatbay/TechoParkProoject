@@ -17,6 +17,7 @@ public class SecurityConfig {
                         .permitAll()
                         .anyRequest()
                         .permitAll()
+                        .and()
                 );
 
 

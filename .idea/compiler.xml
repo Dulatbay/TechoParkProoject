@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <excludeFromCompile>
-      <directory url="file://$PROJECT_DIR$/app/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/app/src/main/resources/archetype-resources" includeSubdirectories="false" />
     </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
@@ -12,7 +12,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="api-gateway" />
         <module name="actual-ms" />
+        <module name="config-server" />
         <module name="user-ms" />
+        <module name="eureka-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +26,7 @@
       <module name="eureka-server.test" target="17" />
       <module name="music-ms" target="1.7" />
       <module name="reels-ms" target="1.7" />
+      <module name="resource-server" target="17" />
       <module name="saved-collections-ms" target="1.7" />
       <module name="story-ms" target="1.7" />
     </bytecodeTargetLevel>
@@ -32,7 +35,9 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="actual-ms" options="-parameters" />
       <module name="api-gateway" options="-parameters" />
+      <module name="config-server" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="resource-server" options="-parameters" />
       <module name="user-ms" options="-parameters" />
     </option>
   </component>

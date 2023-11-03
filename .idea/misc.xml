@@ -15,10 +15,13 @@
         <option value="$PROJECT_DIR$/app/actual-ms/pom.xml" />
         <option value="$PROJECT_DIR$/app/user-ms/pom.xml" />
         <option value="$PROJECT_DIR$/app/api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/app/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/app/resource-server/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/app/resource-server/pom.xml" />
         <option value="$PROJECT_DIR$/user-ms/pom.xml" />
       </set>
     </option>

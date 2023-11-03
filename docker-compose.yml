@@ -24,7 +24,7 @@ services:
       KEYCLOAK_USER: admin
       KEYCLOAK_PASSWORD: admin_password
     ports:
-      - "8484:8484"
+      - "8484:8080"
     depends_on:
       - postgres
     links:
