@@ -1,4 +1,4 @@
-package com.example.userms.config;
+package techpark.net.userms.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

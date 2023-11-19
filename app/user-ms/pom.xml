@@ -17,9 +17,6 @@
     <modules>
         <module>client-libs/keycloak</module>
     </modules>
-    <!--    <modules>-->
-<!--        <module>client-libs/keycloak</module>-->
-<!--    </modules>-->
     <properties>
         <java.version>17</java.version>
         <spring-cloud.version>2022.0.4</spring-cloud.version>

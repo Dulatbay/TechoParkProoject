@@ -1,4 +1,4 @@
-package com.example.userms;
+package techpark.net.userms;
 
 import io.swagger.v3.oas.annotations.enums.SecuritySchemeType;
 import io.swagger.v3.oas.annotations.security.SecurityScheme;
