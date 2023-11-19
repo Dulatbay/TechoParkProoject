@@ -18,6 +18,6 @@ public interface KeycloakApi {
             value = "/users?first=10&max=15",
             produces = "*/*"
     )
-    ResponseEntity<Object> createFile(@RequestPart("first") int first, @RequestPart("max") int max);
+    ResponseEntity<Object> getAllUsers(@RequestPart("first") int first, @RequestPart("max") int max);
 
 }
